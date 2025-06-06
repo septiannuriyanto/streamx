@@ -47,17 +47,3 @@ export const fetchMovieDetails = async (movieId:string) : Promise<MovieDetails>=
         throw error;
     }
 }
-
-// const url = 'https://api.themoviedb.org/3';
-// const options = {
-//   method: 'GET',
-//   headers: {
-//     accept: 'application/json',
-//     Authorization: 'Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiI1ZjcxZWVhMWEwMTE4ZmQ0YjI2Y2UyMzFkNzJkZWUyYiIsIm5iZiI6MTc0OTA4MjIzNi4zOTYsInN1YiI6IjY4NDBlMDdjYWE4NTRjY2Q0YTUzOTExYiIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.NdU6TNE1OH3fziwun5Sk5yM_8PsKcrJG82Eq34pOufg'
-//   }
-// };
-
-// fetch(url, options)
-//   .then(res => res.json())
-//   .then(res => console.log(res))
-//   .catch(err => console.error(err));
